@@ -1,0 +1,10 @@
+
+# Skeleton folders
+.idea/
+__pycache__
+
+# Credentials folder
+credentials/
+
+
+
