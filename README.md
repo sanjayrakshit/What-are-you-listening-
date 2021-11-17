@@ -1,7 +1,7 @@
 # What have you been listening?
 
 The sole purpose of this project is to explore the world of APIs and some database. What other way to achieve that
-except making a project.
+except making a project about it?
 
 So, in this project I've used Spotify's Web API and MongoDB
 
@@ -9,7 +9,7 @@ Let's talk about the required credentials. Spotify provides 3 different ways to 
 into the details. You can find more [here](https://developer.spotify.com/documentation/general/guides/authorization/).
 
 For our use case we would require the **_CLIENT ID_** & **_CLIENT SECRET_**. More on
-this [here](https://developer.spotify.com/documentation/general/guides/authorization/app-settings/)
+this [here](https://developer.spotify.com/documentation/general/guides/authorization/app-settings/).
 
 After you've found your **client id** and **client secret** save it in a json file like this:
 
@@ -46,9 +46,9 @@ mongo.set_database('spotify_data')
 mongo.set_collection('featured_playlist')
 ```
 
-All you need to do now is call the runner() from somewhere or the [main.py](./main.py)
+All you need to do now is call the `runner()` from somewhere or the [main.py](./main.py)
 
-Below is the docstring of the runner() to help you out
+Below is the docstring of the `runner()` to help you out
 
 ```text
 Runner method which handles all the flow
